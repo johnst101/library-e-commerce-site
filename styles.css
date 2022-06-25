@@ -85,7 +85,7 @@ button:active {
   width: 160px;
 }
 
-.row__column{
+.row__column {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +125,7 @@ button:active {
   text-decoration: none;
 }
 
-.btn__menu{
+.btn__menu {
   background-color: transparent;
   font-size: 40px;
   text-align: center;
@@ -134,7 +134,7 @@ button:active {
   display: none;
 }
 
-.menu__backdrop{
+.menu__backdrop {
   position: absolute;
   background-color: #242424;
   top: 0;
@@ -150,32 +150,32 @@ button:active {
   opacity: 0;
 }
 
-.menu--open .menu__backdrop{
+.menu--open .menu__backdrop {
   visibility: visible;
   opacity: 1;
 }
 
-.menu--open{
+.menu--open {
   max-height: 100vh;
   overflow-y: hidden;
 }
 
-.menu__links{
+.menu__links {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.menu__list{
+.menu__list {
   padding: 32px 0;
 }
 
-.menu__link{
+.menu__link {
   font-size: 40px;
   color: #fff;
 }
 
-.btn__menu--close{
+.btn__menu--close {
   position: absolute;
   right: 20px;
   top: 10px;
@@ -348,57 +348,57 @@ header {
 
 /* EXPLORE */
 
-#explore{
+#explore {
   background-color: rgba(115, 66, 214, 0.1);
 }
 
 /* FOOTER */
 
-footer{
+footer {
   background-color: #242424;
 }
 
-.footer__logo{
- display: flex;
+.footer__logo {
+  display: flex;
 }
 
-.footer__logo--image{
+.footer__logo--image {
   width: 160px;
   filter: grayscale(1) invert(1);
 }
 
 .footer__link,
-.footer__copyright{
+.footer__copyright {
   color: #fff;
 }
 
-.footer__links{
+.footer__links {
   margin: 24px 0;
 }
 
-.footer__link{
+.footer__link {
   padding: 0 8px;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMART PHONES */
 
-@media (max-width: 768px){
-  .header__description{
+@media (max-width: 768px) {
+  .header__description {
     padding: 0 24px;
   }
 
-  h1{
+  h1 {
     font-size: 40px;
   }
 
-  h2{
+  h2 {
     font-size: 26px;
   }
-  button{
+  button {
     font-size: 18ps;
   }
 
-  .book{
+  .book {
     width: 50%;
   }
 }
@@ -406,19 +406,19 @@ footer{
 /* SMALL PHONES, LARGE SMART PHONES */
 
 @media (max-width: 550px) {
-  .nav__links{
+  .nav__links {
     display: none;
   }
 
-  .btn__menu{
+  .btn__menu {
     display: block;
   }
 
-  .highlight{
+  .highlight {
     width: 100%;
   }
 
-  .highlight:not(:last-child){
+  .highlight:not(:last-child) {
     margin-bottom: 24px;
   }
 }
